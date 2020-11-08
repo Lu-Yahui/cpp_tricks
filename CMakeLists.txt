@@ -38,3 +38,7 @@ add_executable(virtual_constructor
 add_executable(class_acting_like_pointer
     others/class_acting_like_pointer.cpp
 )
+
+add_executable(placement_new
+    others/placement_new.cpp
+)

@@ -26,3 +26,5 @@ CRTP is a trick to implement compile-time polymorphism.
 Virtual constructor is a technique which makes it possible to copy an object from a base class pointer, by delegating the coping action to the derived class.
 ### [class acting like shared pointers](others/class_acting_like_pointer.cpp)
 This is a simple example that demostrates how shared_ptr works. It uses a run time allocated counter to remember how many references so far. Once the count becomes zero, the resource will be deallocated. This example is NOT thread safe. Try to set counter as std::atomic, to get it thread safe. 
+### [placement new](others/placement_new.cpp)
+Placement new is a rarely used syntax in C++. It initializes object in the pre-allocated memory. Thus it decouples resource acquisition and initialization.
