@@ -11,6 +11,10 @@ add_executable(make_tuple_easy_to_read
     modern_cpp_features/make_tuple_easy_to_read.cpp
 )
 
+add_executable(variadic_templates
+    modern_cpp_features/variadic_templates.cpp
+)
+
 add_executable(dispatcher
     templates/dispatcher.cpp
 )

@@ -19,6 +19,7 @@ CRTP is a trick to implement compile-time polymorphism.
 ## Modern C++ Features
 ### [perfect forwarding](modern_cpp_features/perfect_forwarding.cpp)
 ### [tuple trick](modern_cpp_features/make_tuple_easy_to_read.cpp)
+### [variadic_templates](modern_cpp_features/variadic_templates.cpp)
 
 ---
 ## Others
